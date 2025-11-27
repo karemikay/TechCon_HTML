@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechCon 2024 — Home</title></head>
+<a class="skip-link" href="#maincontent">Skip to main content</a>
+
+  <div class="container" id="page">
+    <!-- Header -->
+    <header>
+      <a class="brand" href="index.html" aria-label="TechCon 2024 homepage">
+        <span class="logo" aria-hidden="true">TC</span>
+        <div>
+          <h1 style="font-size:18px;margin:0">TechCon 2024</h1>
+          <div class="meta">Innovate. Connect. Build.</div>
+        </div>
+      </a>
+
+      <!-- Primary navigation with clear link targets -->
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main id="maincontent" tabindex="-1" role="main" aria-labelledby="intro-heading">
+      <section class="intro" aria-labelledby="intro-heading">
+        <div>
+          <h2 id="intro-heading">Welcome to TechCon 2024</h2>
+          <p class="lead">
+            TechCon 2024 is a two-day conference bringing together developers, designers, and tech leaders to explore the latest in AI, web development, and product design. Join hands-on workshops, inspiring keynotes, and networking sessions.
+          </p>
+
+          <h3>Why attend?</h3>
+          <ul>
+            <li>Hands-on workshops led by industry practitioners</li>
+            <li>Practical talks about AI, frontend, backend, and product</li>
+            <li>Networking opportunities with startups and investors</li>
+          </ul>
+
+          <p class="meta">Estimated attendees: 100 • Date: 2024 • Venue details coming soon</p>
+        </div>
+
+        <!-- Accessible embedded promotional video -->
+        <aside>
+          <h3>Watch the promo</h3>
+
+          <div class="video-wrap" aria-label="Promotional video for TechCon 2024">
+            <!--
+              Note for maintainers:
+              - Replace media/promo.mp4 with your actual video file.
+              - captions_en.vtt is provided as a sample in the media folder.
+            -->
+            <video controls preload="metadata" poster="media/promo-poster.jpg">
+              <source src="media/promo.mp4" type="video/mp4" />
+              <!-- WebM fallback example -->
+              <source src="media/promo.webm" type="video/webm" />
+              <!-- Captions track -->
+              <track kind="captions" srclang="en" label="English captions" src="media/captions_en.vtt" default />
+              <!-- Short description for non-visual users -->
+              <p>Your browser does not support embedded video. You can <a href="media/promo.mp4">download the video file</a> or read the transcript <a href="media/promo_transcript.txt">here</a>.</p>
+            </video>
+          </div>
+
+          <p class="meta" style="margin-top:8px">Closed captions included. Transcript available.</p>
+        </aside>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p>copyright © 2025 TechCon 2024. All rights reserved.</p>
+      <p style="font-size:13px;color:var(--muted)">Built with accessibility and semantic HTML</p>
+    </footer>
+  </div>
+</body>
+</html>
+
